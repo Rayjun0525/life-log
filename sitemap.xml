@@ -3,12 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rayjun0525.github.io/life-log/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/posts/table-of-content/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rayjun0525.github.io/life-log/posts/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rayjun0525.github.io/life-log/tags/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rayjun0525.github.io/life-log/tags/test/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rayjun0525.github.io/life-log/posts/hello/world/</loc>
+    <lastmod>2023-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rayjun0525.github.io/life-log/posts/table-of-content/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rayjun0525.github.io/life-log/posts/math-typesetting/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rayjun0525.github.io/life-log/posts/emoji-support/</loc>
-    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/tags/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rayjun0525.github.io/life-log/pages/about/</loc>
