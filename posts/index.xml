@@ -34,5 +34,50 @@ Windows, MacOS같은 Non-Linux PostgreSQL은 EDB라는 회사에서 지원하는
 그렇기에 이번 설치에서는 Linux를 사용해서 설치를 진행해보려고 한다.</description>
     </item>
     
+    <item>
+      <title>t1</title>
+      <link>https://rayjun0525.github.io/life-log/posts/test1/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/test1/</guid>
+      <description>tttttttttt</description>
+    </item>
+    
+    <item>
+      <title>t2</title>
+      <link>https://rayjun0525.github.io/life-log/posts/test2/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/test2/</guid>
+      <description>tttttttttt</description>
+    </item>
+    
+    <item>
+      <title>t3</title>
+      <link>https://rayjun0525.github.io/life-log/posts/test3/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/test3/</guid>
+      <description>tttttttttt</description>
+    </item>
+    
+    <item>
+      <title>t4</title>
+      <link>https://rayjun0525.github.io/life-log/posts/test4/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/test4/</guid>
+      <description>tttttttttt</description>
+    </item>
+    
+    <item>
+      <title>t5</title>
+      <link>https://rayjun0525.github.io/life-log/posts/test5/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/test5/</guid>
+      <description>tttttttttt</description>
+    </item>
+    
   </channel>
 </rss>
