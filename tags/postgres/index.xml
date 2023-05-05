@@ -13,7 +13,9 @@
       <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rayjun0525.github.io/life-log/posts/20230505/</guid>
-      <description>하이 </description>
+      <description>PostgreSQL이 주목 받기 까지 개발을 어느정도 접해본 사람들이라면 DBMS라는 개념에 대해서 알고있을 것이다. Data Base Management System. 즉 데이터베이스를 관리하는 시스템인 DBMS는 주로 정보를 저장하고, 관리하는 전반에 걸친 작업을 관장하는 솔루션이다. DBMS의 역사는 길고 복잡하다.
+전선을 엮어서 코드를 짜던 시절부터 고민되어 오던 것들이 현재에 이른 것이니, 그 시간만큼 다양하고 또 복잡해졌을 것은 분명하다. DBMS라고 하면 늘 따라다니는 이름이 하나 있다. 바로 &amp;lsquo;Oracle&amp;rsquo; 이다.
+Oracle DBMS는 현재 대한민국의 DBMS시장을 거의 전부 장악하고 있다고 보아도 무방하다.</description>
     </item>
     
   </channel>
