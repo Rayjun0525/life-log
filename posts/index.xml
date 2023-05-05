@@ -8,11 +8,20 @@
     <language>kr-ko</language>
     <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>테스트 테스트</title>
-      <link>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/</link>
+      <title>mymym 테스트</title>
+      <link>https://rayjun0525.github.io/life-log/posts/dbms/mysql/202305/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/</guid>
+      <guid>https://rayjun0525.github.io/life-log/posts/dbms/mysql/202305/</guid>
+      <description>민아ㅓ리마너이라ㅓ민아ㅓ리asdfasdfasdf</description>
+    </item>
+    
+    <item>
+      <title>테스트 테스트</title>
+      <link>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/post_02/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/post_02/</guid>
       <description>민아ㅓ리마너이라ㅓ민아ㅓ리</description>
     </item>
     
@@ -27,19 +36,19 @@
     
     <item>
       <title>테스트3 테스트3</title>
-      <link>https://rayjun0525.github.io/life-log/posts/dbms/index2/</link>
+      <link>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/post_03/index2/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rayjun0525.github.io/life-log/posts/dbms/index2/</guid>
+      <guid>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/post_03/index2/</guid>
       <description>민아ㅓ리마너이라ㅓ민아33333333333333ㅓ리</description>
     </item>
     
     <item>
       <title>테스트4 테스트4</title>
-      <link>https://rayjun0525.github.io/life-log/posts/dbms/post_01/</link>
+      <link>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/post_01/</link>
       <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rayjun0525.github.io/life-log/posts/dbms/post_01/</guid>
+      <guid>https://rayjun0525.github.io/life-log/posts/dbms/postgresql/post_01/</guid>
       <description>민아ㅓ리마너이라ㅓ민아ㅓ리44444444444</description>
     </item>
     
