@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Paper</title>
+    <title>Tags on Life-Log</title>
     <link>https://rayjun0525.github.io/life-log/tags/</link>
-    <description>Recent content in Tags on Paper</description>
+    <description>Recent content in Tags on Life-Log</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://rayjun0525.github.io/life-log/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
