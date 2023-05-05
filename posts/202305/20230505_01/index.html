@@ -3,17 +3,17 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Posts | Life-Log</title>
-<meta property="og:title" content="Posts | Life-Log" />
-<meta name="twitter:title" content="Posts | Life-Log" />
-<meta itemprop="name" content="Posts | Life-Log" />
-<meta name="application-name" content="Posts | Life-Log" />
+<title itemprop="name">(입문) 01. PostgreSQL이란? | Life-Log</title>
+<meta property="og:title" content="(입문) 01. PostgreSQL이란? | Life-Log" />
+<meta name="twitter:title" content="(입문) 01. PostgreSQL이란? | Life-Log" />
+<meta itemprop="name" content="(입문) 01. PostgreSQL이란? | Life-Log" />
+<meta name="application-name" content="(입문) 01. PostgreSQL이란? | Life-Log" />
 <meta property="og:site_name" content="Life-Log" />
 
-<meta name="description" content="MyoungJun Kim&#39;s Life Log">
-<meta itemprop="description" content="MyoungJun Kim&#39;s Life Log" />
-<meta property="og:description" content="MyoungJun Kim&#39;s Life Log" />
-<meta name="twitter:description" content="MyoungJun Kim&#39;s Life Log" />
+<meta name="description" content="PostgreSQL이란?">
+<meta itemprop="description" content="PostgreSQL이란?" />
+<meta property="og:description" content="PostgreSQL이란?" />
+<meta name="twitter:description" content="PostgreSQL이란?" />
 
 <meta property="og:locale" content="kr-ko" />
 <meta name="language" content="kr-ko" />
@@ -32,16 +32,15 @@
     
     
     
-    <link rel="first" href="/life-log/posts/" />
-    <link rel="last" href="/life-log/posts/" />
-    
-    
-    
 
     <meta property="og:type" content="article" />
     <meta property="og:article:published_time" content=2023-05-05T00:00:00Z />
     <meta property="article:published_time" content=2023-05-05T00:00:00Z />
 
+    
+    <meta property="og:article:author" content="Myoung jun kim" />
+    <meta property="article:author" content="Myoung jun kim" />
+    <meta name="author" content="Myoung jun kim" />
     
 
     
@@ -50,14 +49,14 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "Posts",
+        "headline": "(입문) 01. PostgreSQL이란?",
         "author": {
         "@type": "Person",
         "name": ""
         },
         "datePublished": "2023-05-05",
-        "description": "",
-        "wordCount":  0 ,
+        "description": "PostgreSQL이란?",
+        "wordCount":  577 ,
         "mainEntityOfPage": "True",
         "dateModified": "2023-05-05",
         "image": {
@@ -76,9 +75,7 @@
 
     
 
-    <link rel="canonical" href="https://rayjun0525.github.io/life-log/posts/">
-    <link href="/life-log/posts/index.xml" rel="alternate" type="application/rss+xml" title="Life-Log">
-    <link href="/life-log/posts/index.xml" rel="feed" type="application/rss+xml" title="Life-Log">
+    <link rel="canonical" href="https://rayjun0525.github.io/life-log/posts/202305/20230505_01/">
     <link href="/life-log/style.min.e8353c8bf6aa84457d3c7f65980d94548f249c91e6b37b15b9f1c7e13ceed431.css" rel="stylesheet">
     <link href="/life-log/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -135,7 +132,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/life-log/posts/">
+                    <a class="menu-link active" href="/life-log/posts/">
                         Posts
                     </a>
                     
@@ -161,51 +158,73 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Posts</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2023</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">(입문) 01. PostgreSQL이란?</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2023-05-05T00:00:00&#43;00:00" itemprop="datePublished"> May 5, 2023 </time>
+                </div>
+            </header>
+            <details class="toc">
+                <summary><b>Table of Contents</b></summary>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#postgresql이-주목-받기-까지">PostgreSQL이 주목 받기 까지</a></li>
+    <li><a href="#postgresql은-어디에-사용되는가">PostgreSQL은 어디에 사용되는가?</a></li>
+    <li><a href="#그렇다면-왜-postgresql인가">그렇다면 왜 PostgreSQL인가</a></li>
+    <li><a href="#postgresql의-경쟁자">PostgreSQL의 경쟁자</a></li>
+    <li><a href="#결론">결론</a></li>
+  </ul>
+</nav>
+            </details><div class="page-content">
+                <h2 id="postgresql이-주목-받기-까지">PostgreSQL이 주목 받기 까지</h2>
+<p>개발을 어느정도 접해본 사람들이라면 DBMS라는 개념에 대해서 알고있을 것이다.
+Data Base Management System. 즉 데이터베이스를 관리하는 시스템인 DBMS는 주로 정보를 저장하고, 관리하는 전반에 걸친 작업을 관장하는 솔루션이다.
+DBMS의 역사는 길고 복잡하다.</p>
+<p>전선을 엮어서 코드를 짜던 시절부터 고민되어 오던 것들이 현재에 이른 것이니, 그 시간만큼 다양하고 또 복잡해졌을 것은 분명하다. DBMS라고 하면 늘 따라다니는 이름이 하나 있다. 바로 &lsquo;Oracle&rsquo; 이다.</p>
+<p>Oracle DBMS는 현재 대한민국의 DBMS시장을 거의 전부 장악하고 있다고 보아도 무방하다.</p>
+<p>한때 시장의 95%이상을 장악하고 있었으니 두말하면 입이 아플 것이다. 이런 오라클의 성공은 생각보다 별것 아닌 이유로 이루어졌다. 경쟁자가 없었다.</p>
+<p>물론 한국에서도 국산 DBMS를 만들어낸 전력이 있다. 대표적으로는 티멕스 소프트의 티베로(Tibero)가 그것이다. Oracle의 모든 명령어가 동일하게 동작한다는 것을 컨셉으로 만들어진 티베로는 한때 대한민국 DBMS시장에서 경쟁력 있는 DBMS로 자리잡았었다.</p>
+<p>하지만 모종의 이유로 DB담당자들 사이에서 혹평을 받으며 역사의 뒤안길로 접어들게 되었다.</p>
+<p>2010년대 이후, 시장에서는 Cloud의 바람과 함께 마이크로 서비스를 위한 OpenSource DBMS에 대한 수요가 폭발적으로 증가하게 되었다.</p>
+<p>기존의 DBMS가 중앙집중화 된 서버에서 대용량의 업무를 처리하기위해 사용되었다면, 이제는 각각의 서비스별로 DB를 구분하여 각각의 특성에 맞게 파편화하여 사용되기 시작한 것이다.</p>
+<p>그리고 이때부터 PostgreSQL은 주목받기 시작한다.</p>
+<h2 id="postgresql은-어디에-사용되는가">PostgreSQL은 어디에 사용되는가?</h2>
+<p>사실 PG의 역사는 ingres라는 DBMS까지 거슬러 올라간다. 1970년대에 개발되기 시작한 Ingres DBMS는 DB역사의 이정표같은 DB였다. Ingres DBMS를 기반으로 하여 MS사의 Microsoft SQL server, IBM사의 Sybase등 한 시대를 주름잡은 DBMS가 만들어졌으니 말이다.</p>
+<p>PostgreSQL역시 이런 Ingres에 기반을 둔 DBMS이다.</p>
+<p>Post Ingres를 줄여 Postgres로 명명된 이후, 1996년 SQL을 지원하기 시작하며 현재의 PostgreSQL이 되었다.</p>
+<p>PostgreSQL은 현재 전세계 많은 시스템들의 기반을 담당하고 있으며, 대표적으로 초기 Instagrem의 경우 사용자들의 모든 데이터를 PG를 통해서 저장하고 관리했었다. Instagrem 이외에도 많은 기업들에서 자신들의 서비스를 위해 PG를 사용하고 있으며, 그 영역은 Open Source DBMS의 영역이 확장될수록 더욱 커지고있다.</p>
+<p>PG는 시장에서 대부분 서브 서비스와, 마이크로서비스의 메인 DBMS역할을 담당하고 있다. Oracle DBMS에 버금가는 안정성과 대용량 처리가 가능하기 때문이다. 하지만 아직까지 메인 서비스를 담당하는 Oracle의 자리를 넘보지는 못하는 상태이다. Open Source의 한계라면 한계라고 할 수 있는 &lsquo;기술지원&rsquo; 문제 때문이다.</p>
+<p>Open Source DBMS는 관리주체가 불분명하다. 커미터가 정해져있다고는 하지만, 대부분 커뮤니티에 의해서 관리되고, 컨트리뷰터들도 자신의 생계를 책임질 다양한 업무에 종사하고 있다보니 실시간, 단시간 대응이 어려운 것이 사실이다.</p>
+<h2 id="그렇다면-왜-postgresql인가">그렇다면 왜 PostgreSQL인가</h2>
+<p>그렇다면 왜 우리는 PostgreSQL을 알아야할까?</p>
+<p>가장 큰 이유는 세계시장의 추세가 변하고 있기 때문이다.</p>
+<p>한국에서는 아마 PostgreSQL 혹은 PG를 들어본 사람이 거의 없을 것이라고 확신한다.
+교육과정에서도, 현업에서도 단 한번도 PostgreSQL이라는 단어를 들을 일이 없기 때문이다.
+하지만 해외에서는 벌써부터 PostgreSQL에 대한 관심이 뜨거웠었다.
+대표적으로 러시아와 독일, 일본에서 PG를 많이 사용하고 있으며, 점점 더 많은 사람들이 PG에 대한 관심을 가지기 시작했다.
+안정성이 보장되고 대용량처리가 가능하면서 무료이기 때문이다.</p>
+<p>국내에서도 몇년전부터 대기업을 위주로 PostgreSQL DBA에 대한 인력수요가 생겨나고 있는 편이고, 수많은 업체들이 PostgreSQL을 사용하기 위한 검토를 진행하고 있다.</p>
+<h2 id="postgresql의-경쟁자">PostgreSQL의 경쟁자</h2>
+<p>물론 PostgreSQL이 만능은 아니다. MariaDB, MySQL등의 오픈소스 DBMS가 막강한 경쟁자로서 자리하고있기 때문이다.</p>
+<p>특히나 MySQL은 Oracle사에 인수되며 오픈소스라고 하기에는 애매하지만, 무려 Oracle사의 기술지원을 받을 수 있다는 점에서 차원이 다른 강점을 가지고 있다.</p>
+<p>Maria DB나 MySQL역시 마이크로서비스를 담당하기 위한 DBMS로 사용되고 있으며, 그 영역이 점차 확장되는 추세이다. 대기업들에서도 MySQL, Maria DB의 사용에 긍정적인 반응을 보이고 있으며, 관련 채용정보들도 종종 보이고 있다.</p>
+<p>하지만 PostgreSQL은 이러한 오픈소스 DBMS들과는 살짝 결이 다르다.</p>
+<p>무엇보다 하드웨어의 성능에 따라 거의 무한대의 퍼포먼스를 내는 것이 가능하다. 또한 MySQL, MariaDB와는 달리 Active-Active와 같은 기능들을 지원하지 않는다거나, Shared Volume을 사용할 수 없는 등의 제약이 있다. 하지만 이는 각각의 DBMS가 담당하는 역할이 다르다는 관점에서 보아야 할 문제이다.</p>
+<h2 id="결론">결론</h2>
+<p>PostgreSQL은 수치적으로나, 예상되는 전망으로나 앞으로의 DBMS시장에서 빼놓고 생각할 수 없는 DBMS인 것은 분명하다.</p>
+<p>PostgreSQL을 잘 알고있는 DB담당자라면 앞으로의 인력시장에서 경쟁력을 가질 수 있을 것이며, Oracle과 PostgreSQL, MySQL등을 넘나들며 퍼포먼스를 발휘할 수 있다면 더욱 좋을 것이다.</p>
+<p>아직은 한국시장에서 PG의 입지가 약한 편이지만, 알아둬서 나쁠 것은 없고, 오히려 미래의 먹거리가 될 수 있다는 것이 필자의 생각이다.</p>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/life-log/posts/202305/20230505_02/">(입문) 02. PostgreSQL 설치</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-05-05T00:00:00Z">
-        May 5, 2023
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/life-log/posts/202305/20230505_01/">(입문) 01. PostgreSQL이란?</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-05-05T00:00:00Z">
-        May 5, 2023
-    </time>
-</article>
-
-
-         
-
-         
-
+            </div>
+        </article>
     </main>
-</div><footer class="footer">
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
