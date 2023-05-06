@@ -447,7 +447,7 @@ psql에서 수행되는 명령어들은 곧바로 DBMS에 영향을 미친다. P
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nv">test</span><span class="o">=</span>*# end<span class="p">;</span>
 </span></span><span class="line"><span class="cl">COMMIT
-</span></span></code></pre></div><p>물론 위의 쿼리는 단순 조회이기 때문에 PostgreSQL 상의 Data가 변경되는 작업은 진행되지 않지만, create나 update와 같은 작업들은 end;나 commit을 진행하지 않으면 실제로 반영되지 않는다.</p>
+</span></span></code></pre></div><p>물론 위의 쿼리는 단순 조회이기 때문에 PostgreSQL 상의 Data가 변경되는 작업은 진행되지 않지만, create나 update와 같은 작업들은 end;나 commit;을 진행하지 않으면 실제로 반영되지 않는다.</p>
 <p>AutoCommit 모드를 사용하지 않는 방법도 있다.<br>
 해당 모드는 &ldquo;\set&rdquo; 명령어를 통해 사용할 수 있으며, &ldquo;\echo&quot;를 통해 상태값을 확인할 수 있다.<br>
 여기서 주의할 점은 AUTOCOMMIT 명령어를 대문자로 입력해주어야 한다는 점이다.</p>
