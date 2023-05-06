@@ -8,19 +8,6 @@
     <language>kr-ko</language>
     <lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>(입문) 03. PostgreSQL 접속하기 (psql)</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</link>
-      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</guid>
-      <description>PostgreSQL 접속하기 (psql) PostgreSQL에 접속하기 앞서 지난 포스팅에서는 PostgreSQL을 설치하는 방법을 알아보았다.
-그렇다면 이제 PostgreSQL을 사용해 볼 시간이다.
-PostgreSQL에 접속하는 방법은 기본적으로 CLI를 통한 접속과 GUI를 통한 접속으로 나뉜다.
-CLI를 통한 접속은 psql이라는 PostreSQL 기본 유틸리티를 통해 접속을 할 예정이고, GUI 사용은 DBeaver를 통해 진행해 볼 것이다.
-물론 CLI와 GUI 모두 해당 방법만 존재하는 것은 아니다. CLI에서는 psql 이외에도 psycopg2, JDBC와 같은 커넥션 툴을 사용해 데이터를 불러오고, 원하는 형태로 가공할 수 있으며 GUI에서는 DBeaver, pgAdmin4, Squirrel SQL등과 같은 클라이언트 들을 사용할 수 있다.</description>
-    </item>
-    
-    <item>
       <title>(취미) Hugo 사용해보기</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
