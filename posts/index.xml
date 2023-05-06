@@ -6,7 +6,23 @@
     <description>Recent content in Posts on Life-Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
-    <lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(취미) Hugo 사용해보기</title>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</guid>
+      <description>Hugo 1. 설치 Hugo를 설치하기 위해서는 우선 Golang을 설치해야 한다.
+Golang은 Go의 공식 홈페이지에서 다운로드 받아 설치할 수 있다.
+Hugo는 Golang의 1.18버전 이상부터 지원하니 참고하도록 하자.
+Golang이 설치되었다면, 이제 GOROOT와 GOPATH를 설정해준다.
+GOROOT는 GO가 실제로 설치되는 위치이고, GOPATH는 GO를 통해 다운받는 각종 패키지들의 경로이다.
+GO에 대한 설정이 모두 완료되었다면, 이제 Hugo를 다운로드 받는다.
+Hugo는 GO를 통해 패키지를 다운로드 받거나, 직접 컴파일된 파일을 내려받아 사용하는 방법이 있다.
+후자가 더 간단하니 컴파일된 파일을 내려받아 사용하자.</description>
+    </item>
+    
     <item>
       <title>(입문) 01. PostgreSQL이란?</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230505_01/</link>
