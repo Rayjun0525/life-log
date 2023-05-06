@@ -6,7 +6,34 @@
     <description>Recent content in postgres on Life-Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
-    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/tags/postgres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>life-log3</title>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy/</guid>
+      <description>test!!!</description>
+    </item>
+    
+    <item>
+      <title>life-log4</title>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-2/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-2/</guid>
+      <description>test!!!</description>
+    </item>
+    
+    <item>
+      <title>life-log5</title>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-3/</link>
+      <pubDate>Sun, 07 May 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-3/</guid>
+      <description>test!!!</description>
+    </item>
+    
     <item>
       <title>(입문) 03. PostgreSQL 접속하기 (psql)</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</link>
@@ -54,33 +81,6 @@ Linux PostgreSQL Non Linux PostgreSQL Linux PostgreSQL은 PG의 근본으로 생
 Windows, MacOS같은 Non-Linux PostgreSQL은 EDB라는 회사에서 지원하는 버전으로, 기술적인 지원은 EDB가 담당하고있다.
 하지만 해외 기업이기 때문에 한국에서 그 기술지원을 받기란 쉬운일은 아니다.
 그렇기에 이번 설치에서는 Linux를 사용해서 설치를 진행해보려고 한다.</description>
-    </item>
-    
-    <item>
-      <title>life-log3</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy/</guid>
-      <description>test!!!</description>
-    </item>
-    
-    <item>
-      <title>life-log4</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-2/</guid>
-      <description>test!!!</description>
-    </item>
-    
-    <item>
-      <title>life-log5</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-3/</guid>
-      <description>test!!!</description>
     </item>
     
   </channel>
