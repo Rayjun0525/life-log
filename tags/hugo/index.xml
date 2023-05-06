@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(취미) Hugo 사용해보기</title>
-      <link>https://rayjun0525.github.io/life-log/posts/20230506_01/</link>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rayjun0525.github.io/life-log/posts/20230506_01/</guid>
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</guid>
       <description>Hugo 1. 설치 Hugo를 설치하기 위해서는 우선 Golang을 설치해야 한다.
 Golang은 Go의 공식 홈페이지에서 다운로드 받아 설치할 수 있다.
 Hugo는 Golang의 1.18버전 이상부터 지원하니 참고하도록 하자.
