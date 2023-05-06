@@ -2,37 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rayjun0525.github.io/life-log/</loc>
-    <lastmod>2023-05-07T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy/</loc>
-    <lastmod>2023-05-07T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-2/</loc>
-    <lastmod>2023-05-07T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-3/</loc>
-    <lastmod>2023-05-07T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/tags/postgres/</loc>
-    <lastmod>2023-05-07T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/posts/</loc>
-    <lastmod>2023-05-07T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://rayjun0525.github.io/life-log/tags/</loc>
-    <lastmod>2023-05-07T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</loc>
     <lastmod>2023-05-06T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</loc>
     <lastmod>2023-05-06T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>https://rayjun0525.github.io/life-log/</loc>
+    <lastmod>2023-05-06T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://rayjun0525.github.io/life-log/tags/hugo/</loc>
     <lastmod>2023-05-06T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</loc>
+    <loc>https://rayjun0525.github.io/life-log/tags/postgres/</loc>
+    <lastmod>2023-05-06T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://rayjun0525.github.io/life-log/posts/</loc>
+    <lastmod>2023-05-06T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://rayjun0525.github.io/life-log/tags/</loc>
     <lastmod>2023-05-06T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://rayjun0525.github.io/life-log/posts/202305/20230505_01/</loc>

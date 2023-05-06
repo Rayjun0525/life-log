@@ -6,22 +6,22 @@
     <description>Recent content in Tags on Life-Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
-    <lastBuildDate>Sun, 07 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>postgres</title>
-      <link>https://rayjun0525.github.io/life-log/tags/postgres/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0900</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/tags/postgres/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo</title>
       <link>https://rayjun0525.github.io/life-log/tags/hugo/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0900</pubDate>
       
       <guid>https://rayjun0525.github.io/life-log/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgres</title>
+      <link>https://rayjun0525.github.io/life-log/tags/postgres/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/tags/postgres/</guid>
       <description></description>
     </item>
     

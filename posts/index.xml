@@ -6,34 +6,7 @@
     <description>Recent content in Posts on Life-Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
-    <lastBuildDate>Sun, 07 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>life-log3</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0900</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy/</guid>
-      <description>test!!!</description>
-    </item>
-    
-    <item>
-      <title>life-log4</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-2/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0900</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-2/</guid>
-      <description>test!!!</description>
-    </item>
-    
-    <item>
-      <title>life-log5</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-3/</link>
-      <pubDate>Sun, 07 May 2023 00:00:00 +0900</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01-copy-3/</guid>
-      <description>test!!!</description>
-    </item>
-    
+    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(입문) 03. PostgreSQL 접속하기 (psql)</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</link>
@@ -61,15 +34,6 @@ GOROOT는 GO가 실제로 설치되는 위치이고, GOPATH는 GO를 통해 다�
 GO에 대한 설정이 모두 완료되었다면, 이제 Hugo를 다운로드 받는다.
 Hugo는 GO를 통해 패키지를 다운로드 받거나, 직접 컴파일된 파일을 내려받아 사용하는 방법이 있다.
 후자가 더 간단하니 컴파일된 파일을 내려받아 사용하자.</description>
-    </item>
-    
-    <item>
-      <title>life-log2</title>
-      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</link>
-      <pubDate>Sat, 06 May 2023 00:00:00 +0900</pubDate>
-      
-      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</guid>
-      <description>test!!!</description>
     </item>
     
     <item>
