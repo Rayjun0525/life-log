@@ -37,6 +37,15 @@ Hugo는 GO를 통해 패키지를 다운로드 받거나, 직접 컴파일된 �
     </item>
     
     <item>
+      <title>life-log2</title>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</guid>
+      <description>test!!!</description>
+    </item>
+    
+    <item>
       <title>(입문) 01. PostgreSQL이란?</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230505_01/</link>
       <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>

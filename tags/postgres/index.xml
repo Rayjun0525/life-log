@@ -21,6 +21,15 @@ CLI를 통한 접속은 psql이라는 PostreSQL 기본 유틸리티를 통해 �
     </item>
     
     <item>
+      <title>life-log2</title>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</guid>
+      <description>test!!!</description>
+    </item>
+    
+    <item>
       <title>(입문) 01. PostgreSQL이란?</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230505_01/</link>
       <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
