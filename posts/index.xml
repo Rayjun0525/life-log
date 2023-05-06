@@ -6,11 +6,11 @@
     <description>Recent content in Posts on Life-Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
-    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(입문) 03. PostgreSQL 접속하기 (psql)</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</link>
-      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0900</pubDate>
       
       <guid>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</guid>
       <description>PostgreSQL에 접속하기 앞서 지난 포스팅에서는 PostgreSQL을 설치하는 방법을 알아보았다.
@@ -23,7 +23,7 @@ CLI를 통한 접속은 psql이라는 PostreSQL 기본 유틸리티를 통해 �
     <item>
       <title>(취미) Hugo 사용해보기</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</link>
-      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0900</pubDate>
       
       <guid>https://rayjun0525.github.io/life-log/posts/202305/20230506_01/</guid>
       <description>Hugo 1. 설치 Hugo를 설치하기 위해서는 우선 Golang을 설치해야 한다.
@@ -39,7 +39,7 @@ Hugo는 GO를 통해 패키지를 다운로드 받거나, 직접 컴파일된 �
     <item>
       <title>life-log2</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</link>
-      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0900</pubDate>
       
       <guid>https://rayjun0525.github.io/life-log/posts/202305/20230507_01/</guid>
       <description>test!!!</description>
@@ -48,7 +48,7 @@ Hugo는 GO를 통해 패키지를 다운로드 받거나, 직접 컴파일된 �
     <item>
       <title>(입문) 01. PostgreSQL이란?</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230505_01/</link>
-      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0900</pubDate>
       
       <guid>https://rayjun0525.github.io/life-log/posts/202305/20230505_01/</guid>
       <description>PostgreSQL이 주목 받기 까지 개발을 어느정도 접해본 사람들이라면 DBMS라는 개념에 대해서 알고있을 것이다. Data Base Management System. 즉 데이터베이스를 관리하는 시스템인 DBMS는 주로 정보를 저장하고, 관리하는 전반에 걸친 작업을 관장하는 솔루션이다. DBMS의 역사는 길고 복잡하다.
@@ -59,7 +59,7 @@ Oracle DBMS는 현재 대한민국의 DBMS시장을 거의 전부 장악하고 �
     <item>
       <title>(입문) 02. PostgreSQL 설치</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230505_02/</link>
-      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0900</pubDate>
       
       <guid>https://rayjun0525.github.io/life-log/posts/202305/20230505_02/</guid>
       <description>PostgreSQL 설치하기에 앞서 우선 PostgreSQL의 환경적인 특성을 알아야 한다.
