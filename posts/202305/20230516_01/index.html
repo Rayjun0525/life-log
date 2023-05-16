@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Tags | Life-Log</title>
-<meta property="og:title" content="Tags | Life-Log" />
-<meta name="twitter:title" content="Tags | Life-Log" />
-<meta itemprop="name" content="Tags | Life-Log" />
-<meta name="application-name" content="Tags | Life-Log" />
+<title itemprop="name">PostgreSQL을 여행하는 히치하이커를 위한 안내서 | Life-Log</title>
+<meta property="og:title" content="PostgreSQL을 여행하는 히치하이커를 위한 안내서 | Life-Log" />
+<meta name="twitter:title" content="PostgreSQL을 여행하는 히치하이커를 위한 안내서 | Life-Log" />
+<meta itemprop="name" content="PostgreSQL을 여행하는 히치하이커를 위한 안내서 | Life-Log" />
+<meta name="application-name" content="PostgreSQL을 여행하는 히치하이커를 위한 안내서 | Life-Log" />
 <meta property="og:site_name" content="Life-Log" />
 
 <meta name="description" content="MyoungJun Kim&#39;s Life Log">
@@ -28,14 +28,54 @@
 
 
 
+    
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2023-05-16T00:00:00&#43;0900 />
+    <meta property="article:published_time" content=2023-05-16T00:00:00&#43;0900 />
+
+    
+    <meta property="og:article:author" content="Myoung jun kim" />
+    <meta property="article:author" content="Myoung jun kim" />
+    <meta name="author" content="Myoung jun kim" />
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "PostgreSQL을 여행하는 히치하이커를 위한 안내서",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2023-05-16",
+        "description": "",
+        "wordCount":  284 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2023-05-16",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Life-Log"
+        }
+    }
+    </script>
+
 
 <meta name="generator" content="Hugo 0.111.2">
 
     
 
-    <link rel="canonical" href="https://rayjun0525.github.io/life-log/tags/">
-    <link href="/life-log/tags/index.xml" rel="alternate" type="application/rss+xml" title="Life-Log">
-    <link href="/life-log/tags/index.xml" rel="feed" type="application/rss+xml" title="Life-Log">
+    <link rel="canonical" href="https://rayjun0525.github.io/life-log/posts/202305/20230516_01/">
     <link href="/life-log/style.min.e8353c8bf6aa84457d3c7f65980d94548f249c91e6b37b15b9f1c7e13ceed431.css" rel="stylesheet">
     <link href="/life-log/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -92,7 +132,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/life-log/posts/">
+                    <a class="menu-link active" href="/life-log/posts/">
                         Posts
                     </a>
                     
@@ -118,51 +158,93 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Tags</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2023</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">PostgreSQL을 여행하는 히치하이커를 위한 안내서</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2023-05-16T00:00:00&#43;09:00" itemprop="datePublished"> May 16, 2023 </time>
+                </div>
+            </header>
+            <details class="toc">
+                <summary><b>Table of Contents</b></summary>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#postgresql-소개">PostgreSQL 소개</a></li>
+        <li><a href="#주요-특징들">주요 특징들</a></li>
+        <li><a href="#postgresql의-이점">PostgreSQL의 이점</a></li>
+        <li><a href="#사용-사례">사용 사례</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </details><div class="page-content">
+                <p><a href="https://roadmap.sh/postgresql-dba">출처 및 참고자료</a></p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="postgresql-소개">PostgreSQL 소개</h3>
+<p>PostgreSQL은 견고성, 확장성 및 SQL 준수로 잘 알려진 강력한 오픈 소스 ORDBMS(Object-Relational Database Management System)입니다. 1980년대에 버클리 캘리포니아 대학교에서 처음 개발되었으며 이후 세계에서 가장 인기 있는 오픈 소스 데이터베이스 중 하나가 되었습니다.</p>
+<p>이 소개 가이드에서는 PostgreSQL의 몇 가지 주요 기능과 사용 사례 및 이점에 대해 설명합니다. 이 가이드는 PostgreSQL의 세계에 뛰어들어 시스템에 대한 기본적인 이해를 얻으려는 사용자에게 출발점을 제공하는 것을 목표로 합니다.</p>
+<h3 id="주요-특징들">주요 특징들</h3>
+<table>
+<thead>
+<tr>
+<th>특징</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACID 준수</td>
+<td>PostgreSQL은 완전히 ACID를 준수하므로 데이터베이스 트랜잭션의 안정성과 데이터 무결성을 보장합니다.</td>
+</tr>
+<tr>
+<td>확장성</td>
+<td>PostgreSQL을 사용하면 사용자가 데이터 유형, 연산자, 함수 등을 정의할 수 있습니다. 이를 통해 사용자 정의가 가능하고 다양한 사용 사례에 적용할 수 있습니다.</td>
+</tr>
+<tr>
+<td>동시성 제어</td>
+<td>PostgreSQL은 다중 버전 동시성 제어(MVCC) 메커니즘을 통해 잠금 경합 없이 동시 쿼리를 효율적으로 처리합니다.</td>
+</tr>
+<tr>
+<td>전체 텍스트 검색</td>
+<td>PostgreSQL은 텍스트 인덱싱 및 다양한 검색 기능을 포함하여 강력한 텍스트 검색 기능을 제공합니다.</td>
+</tr>
+<tr>
+<td>공간 데이터베이스 기능</td>
+<td>PostGIS 확장을 통해 PostgreSQL은 지리적 객체 및 공간 쿼리를 지원하므로 GIS 애플리케이션에 이상적입니다.</td>
+</tr>
+<tr>
+<td>고가용성</td>
+<td>PostgreSQL에는 복제 지원 기능이 내장되어 있어 고가용성과 내결함성이 가능합니다.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="postgresql의-이점">PostgreSQL의 이점</h3>
+<p>PostgreSQL의 주요 이점 중 하나는 오픈 소스 및 커뮤니티 기반 접근 방식입니다. 즉, 무료 로 사용할 수 있으며 전담 개발자 그룹이 지속적으로 작업하고 개선합니다.
+확장성이 뛰어나 소규모 프로젝트와 대규모 엔터프라이즈 애플리케이션 모두에 적합합니다.<br>
+플랫폼 독립적이므로 Windows, Linux 및 macOS와 같은 다양한 운영 체제에서 실행할 수 있습니다.</p>
+<h3 id="사용-사례">사용 사례</h3>
+<p>PostgreSQL은 다재다능함과 확장성 덕분에 다양한 애플리케이션에 사용할 수 있습니다. 몇 가지 일반적인 사용 사례는 다음과 같습니다.</p>
+<ul>
+<li>웹 애플리케이션</li>
+<li>지리 정보 시스템(GIS)</li>
+<li>데이터 웨어하우징 및 분석</li>
+<li>금융 및 은행 시스템</li>
+<li>콘텐츠 관리 시스템(CMS)</li>
+<li>전사적 자원 관리(ERP) 시스템</li>
+</ul>
+<p>후속 가이드에서는 PostgreSQL의 설치, 구성, 사용 및 최적화에 대해 더 깊이 파고들 것입니다. 또한 이 강력한 데이터베이스 시스템의 기능을 최대한 활용하는 데 도움이 되는 다양한 PostgreSQL 도구, 확장 및 모범 사례를 살펴볼 것입니다.</p>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/life-log/tags/postgres/">postgres</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-05-16T00:00:00&#43;0900">
-        May 16, 2023
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/life-log/tags/hugo/">hugo</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-05-06T00:00:00&#43;0900">
-        May 6, 2023
-    </time>
-</article>
-
-
-         
-
-         
-
+            </div>
+        </article>
     </main>
-</div><footer class="footer">
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

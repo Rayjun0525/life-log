@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Life-Log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
-    <lastBuildDate>Sat, 06 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://rayjun0525.github.io/life-log/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PostgreSQL을 여행하는 히치하이커를 위한 안내서</title>
+      <link>https://rayjun0525.github.io/life-log/posts/202305/20230516_01/</link>
+      <pubDate>Tue, 16 May 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://rayjun0525.github.io/life-log/posts/202305/20230516_01/</guid>
+      <description>출처 및 참고자료
+Introduction PostgreSQL 소개 PostgreSQL은 견고성, 확장성 및 SQL 준수로 잘 알려진 강력한 오픈 소스 ORDBMS(Object-Relational Database Management System)입니다. 1980년대에 버클리 캘리포니아 대학교에서 처음 개발되었으며 이후 세계에서 가장 인기 있는 오픈 소스 데이터베이스 중 하나가 되었습니다.
+이 소개 가이드에서는 PostgreSQL의 몇 가지 주요 기능과 사용 사례 및 이점에 대해 설명합니다. 이 가이드는 PostgreSQL의 세계에 뛰어들어 시스템에 대한 기본적인 이해를 얻으려는 사용자에게 출발점을 제공하는 것을 목표로 합니다.
+주요 특징들 특징 설명 ACID 준수 PostgreSQL은 완전히 ACID를 준수하므로 데이터베이스 트랜잭션의 안정성과 데이터 무결성을 보장합니다.</description>
+    </item>
+    
     <item>
       <title>(입문) 03. PostgreSQL 접속하기 (psql)</title>
       <link>https://rayjun0525.github.io/life-log/posts/202305/20230506_02/</link>
